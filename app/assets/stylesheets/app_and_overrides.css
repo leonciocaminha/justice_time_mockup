@@ -13,7 +13,6 @@
   color: #e0eff2;
 }
 
-
 @media (min-width: 1280px) {
   #content {
     margin-left: 10px !important;
@@ -45,4 +44,8 @@
 
 .box-2 {
   border-top: 3px solid #FF5722;
+}
+
+.box-3 {
+  border-top: 3px solid #8BC34A;
 }

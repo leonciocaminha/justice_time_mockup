@@ -15,6 +15,7 @@
     "bootstrap-growl": "latest",
     "moment": "latest",
     "flot-charts": "git://github.com/JaySunSyn/flot-charts",
-    "jquery.animateNumber": "latest"
+    "jquery.animateNumber": "latest",
+    "EasyZoom": "git://github.com/i-like-robots/EasyZoom"
   }
 }

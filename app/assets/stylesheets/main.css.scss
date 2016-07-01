@@ -80,3 +80,43 @@
   right: 40px;
   top: -8px;
 }
+
+.numberCircle {
+  color: white;
+  float: left;
+  margin-right: 5px;
+  font-weight: bold;
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  width: 26px;
+  height: 26px;
+  padding: 5px;
+  text-align: center;
+}
+
+.counters-bpmn {
+  position: absolute;
+  .counters-bpmn-2 {
+    left: 1150px;
+  }
+  top: 76px;
+}
+
+.counters-bpmn-1 {
+  left: 550px;
+}
+
+.counters-bpmn-2 {
+  position: absolute;
+  left: 820px;
+}
+
+.counters-bpmn-3 {
+  left: 1150px;
+}
+
+.link-bpmn {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
