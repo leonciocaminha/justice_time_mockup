@@ -1,20 +1,33 @@
-<div class="tile bg-cyan">
-  <div class="t-header th-alt bg-black-trp">
-    <div class="th-title">Quantidade de Processos por vara do Juri</div>
+<div class="tile box-2">
+  <div class="t-header th-alt">
+    <div class="th-title text-center dark-font">
+      <%= fa_icon("gavel") %>
+      Quantidade de Processos por vara do Juri
+      <%= fa_icon("gavel") %>
+    </div>
   </div>
 
-  <div class="t-body tb-padding text-center">
-    <div class="row">
-      <div class="col-md-15">
-        <div class="col-md-5 col-sm-3">
-          <div class="pie-overviews">
-            <div class="pie-chart-tiny po-item" data-percent="86">
-              <span class="poi-percent">86</span>
-              <div class="poi-title">1ª Vara do Juri</div>
-            </div>
-          </div>
+  <div class="t-body tb-padding">
+    <div class="row text-center">
+        <div class="col-md-2 col-md-offset-1">
+          <%= render partial: "main/partials/court_description", locals: { court: 1, value: rand(100), ptg: rand(100) } %>
         </div>
-      </div>
+
+        <div class="col-md-2">
+          <%= render partial: "main/partials/court_description", locals: { court: 2, value: rand(100), ptg: rand(100) } %>
+        </div>
+
+        <div class="col-md-2">
+          <%= render partial: "main/partials/court_description", locals: { court: 3, value: rand(100), ptg: rand(100) } %>
+        </div>
+
+        <div class="col-md-2">
+          <%= render partial: "main/partials/court_description", locals: { court: 4, value: rand(100), ptg: rand(100) } %>
+        </div>
+
+        <div class="col-md-2">
+          <%= render partial: "main/partials/court_description", locals: { court: 5, value: rand(100), ptg: rand(100) } %>
+        </div>
     </div>
   </div>
 </div>

@@ -23,5 +23,6 @@
 //= require jquery.easy-pie-chart/dist/jquery.easypiechart.min
 //= require flot-orderBars/js/jquery.flot.orderBars
 //= require malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min
+//= require jquery.animateNumber/jquery.animateNumber.min
 //= require functions
 //= require charts

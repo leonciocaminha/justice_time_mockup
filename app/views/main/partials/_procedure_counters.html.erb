@@ -1,37 +1,74 @@
 <div class="tile">
-  <div class="t-header th-alt bg-gray">
-    <div class="th-title">Processos no Tempo de Justiça</div>
-  </div>
-
-  <div class="tile-body">
-    <div class="count-box bg-gray">
+  <div class="tile-body box-1">
+    <div class="count-box">
       <div class="row text-center">
-        <div class="col-sm-3 col-xs-6">
-          <div class="cb-item bg-blue">
-            <h3 class="">232</h3>
-            <small>Processos Monitorados</small>
+        <div class="col-md-3 animated zoomIn">
+          <div class="cb-item total-procedures cardboard">
+            <h1>
+              <span class="value-card dark-font">
+                <%= fa_icon("file") %>
+                232 (64%)
+              </span>
+            </h1>
+            <b class="label-card dark-font">Processos de Homicídios Monitorados</b>
           </div>
         </div>
-        <div class="col-sm-3 col-xs-6">
-          <div class="cb-item bg-green">
-            <h3 class="">63 (54%)</h3>
-            <small>Dentro do Tempo de Justiça</small>
+
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="cb-item cardboard animated zoomIn">
+                <%= file_time_icon %>
+                <h1 class="qty dark-font">63 (54%)</h1>
+                <b class="dark-font">Processos menor ou igual a 05 meses</b>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="cb-item cardboard animated zoomIn">
+                <%= file_time_icon %>
+                <h1 class="qty dark-font">63 (54%)</h1>
+                <b class="dark-font">Processos maior que 05 meses e menor ou igual a 10 meses</b>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <div class="cb-item bg-orange">
-            <h3 class="">22 (33%)</h3>
-            <small>Próximo do Término de Tempo de Justiça</small>
-          </div>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <div class="cb-item bg-red">
-            <h3 class="">14 (23%)</h3>
-            <small>Excedido do Tempo de Justiça</small>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="cb-item bg-green rounded-border animated zoomIn">
+                <%= fa_icon('clock-o', class:"clock-icon-jt") %>
+                <h1 class="qty">63 (54%)</h1>
+                <div class="">
+                  <b class="light-font">Processos no Tempo de Justiça</b>
+                </div>
+                <small class="light-font">Em até 75% do Tempo de Justiça</small>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="cb-item bg-orange rounded-border animated zoomIn">
+                <%= fa_icon('clock-o', class:"clock-icon-jt") %>
+                <h1 class="qty">63 (54%)</h1>
+                <div class="">
+                  <b class="light-font">Processos a vencer o Tempo de Justiça</b>
+                </div>
+                <small class="light-font">A partir de 76% até 100% do Tempo de Justiça</small>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="cb-item bg-red rounded-border animated zoomIn">
+                <%= fa_icon('clock-o', class:"clock-icon-jt") %>
+                <h1 class="qty">63 (54%)</h1>
+                <div class="">
+                  <b class="light-font">Processos que excederam o Tempo de Justiça</b>
+                </div>
+                <small class="light-font">Acima de 100% do Tempo de Justiça</small>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
 </div>

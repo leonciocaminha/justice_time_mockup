@@ -1,0 +1,82 @@
+.total-procedures {
+  height: 236px;
+  b {
+    position: relative;
+    top: 70px;
+  }
+}
+
+.value-card {
+  position: relative;
+  top: 30px;
+  font-size: 55px;
+}
+
+.dark-font {
+  color: #909090;
+  font-weight: bold;
+}
+
+.cardboard {
+  border: 3px solid #CCC;
+  border-radius: 10px;
+}
+
+.rounded-border {
+  border-radius: 10px;
+}
+
+.file-time {
+  position: absolute;
+  float: left;
+  left: 170px;
+  top: 25px;
+}
+
+.file-icon {
+  font-size: 40px !important;
+}
+
+.clock-icon {
+  font-size: 20px !important;
+  position: relative;
+  right: 26px;
+  top: -4px;
+}
+
+.clock-icon-jt {
+  color: white;
+  font-size: 60px !important;
+  position: absolute;
+  left: 8px;
+  top: 11px;
+  opacity: 0.3;
+}
+
+.circle {
+  i {
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top:15px;
+    left: 10px;
+  }
+  width: 60px;
+  height: 60px;
+  background-color: #2196F3;
+  border-radius: 50px;
+}
+
+.court-qty {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.description-court {
+  > div {
+    color: #2196F3;
+  }
+  position: relative;
+  right: 40px;
+  top: -8px;
+}

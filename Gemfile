@@ -39,6 +39,7 @@ group :development, :test do
   gem 'byebug'
   gem 'bower-rails'
   gem 'thin'
+  gem 'quiet_assets'
 end
 
 group :development do
