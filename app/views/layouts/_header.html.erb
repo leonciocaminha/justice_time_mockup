@@ -1,0 +1,35 @@
+<header id="header" class="clearfix" data-spy="affix" data-offset-top="65">
+  <ul class="header-inner">
+      <!-- Logo -->
+      <li class="logo">
+        <a href="#" class="animated fadeInLeft">
+          <%= fa_icon "gavel" %>
+          <%= t("appname") %>
+        </a>
+      </li>
+
+      <!-- Ongoing Projects -->
+      <li class="dropdown">
+        <a data-toggle="dropdown" href="" class="hi-projects">
+          <i class="zmdi zmdi-format-subject"></i>
+        </a>
+      </li>
+
+      <!-- Search -->
+      <li class="top-search">
+        <input class="ts-input" placeholder="Digite o Nº do Processo" type="text">
+        <i class="ts-reset zmdi zmdi-close"></i>
+      </li>
+
+      <!-- Settings -->
+    <li class="pull-right dropdown hidden-xs">
+      <a href="" data-toggle="dropdown">
+        <i class="zmdi zmdi-more-vert"></i>
+      </a>
+      <ul class="dropdown-menu">
+        <li><a data-toggle="fullscreen" href=""><%= t("fullscreen") %></a></li>
+        <li><a href="#"><%= t("sign_out")%></a></li>
+      </ul>
+    </li>
+  </ul>
+</header>

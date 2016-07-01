@@ -1,0 +1,19 @@
+# A sample Bowerfile
+# Check out https://github.com/42dev/bower-rails#ruby-dsl-configuration for more options
+
+asset 'animate.css'
+asset 'material-design-iconic-font'
+asset 'fullcalendar'
+asset 'malihu-custom-scrollbar-plugin'
+
+asset 'jquery'
+asset 'bootstrap'
+asset 'flot'
+asset 'flot-orderBars', github: 'emmerich/flot-orderBars'
+asset 'flot.curvedlines', github: 'MichaelZinsmaier/CurvedLines'
+asset 'jquery.sparkline', github: 'gwatts/jquery.sparkline'
+asset 'jquery.easy-pie-chart', github: 'nicolabortignon/bower-jquery-easyPieChart'
+asset 'bootstrap-growl'
+asset 'moment'
+asset 'fullcalendar'
+asset 'flot-charts', github: 'JaySunSyn/flot-charts'

@@ -1,0 +1,19 @@
+{
+  "name": "dsl-generated dependencies",
+  "dependencies": {
+    "animate.css": "latest",
+    "material-design-iconic-font": "latest",
+    "fullcalendar": "latest",
+    "malihu-custom-scrollbar-plugin": "latest",
+    "jquery": "latest",
+    "bootstrap": "latest",
+    "flot": "latest",
+    "flot-orderBars": "git://github.com/emmerich/flot-orderBars",
+    "flot.curvedlines": "git://github.com/MichaelZinsmaier/CurvedLines",
+    "jquery.sparkline": "git://github.com/gwatts/jquery.sparkline",
+    "jquery.easy-pie-chart": "git://github.com/nicolabortignon/bower-jquery-easyPieChart",
+    "bootstrap-growl": "latest",
+    "moment": "latest",
+    "flot-charts": "git://github.com/JaySunSyn/flot-charts"
+  }
+}
