@@ -2,50 +2,12 @@
     <div class="container">
         <div class="row">
           <div class="col-sm-12">
-
-            <div class="tile">
-              <div class="t-header th-alt bg-purple">
-                <div class="th-title">Latest Signups</div>
-              </div>
-
-              <div class="tile-body">
-                <div class="count-box bg-purple">
-                  <div class="row text-center">
-                    <div class="col-sm-3 col-xs-6">
-                      <div class="cb-item">
-                        <h3 class="">232</h3>
-                        <small>This Month</small>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
-                      <div class="cb-item">
-                        <h3 class="">63</h3>
-                        <small>This Week</small>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
-                      <div class="cb-item">
-                        <h3 class="">22</h3>
-                        <small>Today</small>
-                      </div>
-                    </div>
-                    <div class="col-sm-3 col-xs-6">
-                      <div class="cb-item">
-                        <h3 class="">1365</h3>
-                        <small>Total Users</small>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
+            <%= render partial: "main/partials/procedure_counters" %>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-12">
             <%= render partial: "main/partials/percentage" %>
           </div>
         </div>
