@@ -88,9 +88,6 @@ var charts = {
       }]
     });
   }
-
-
-
 }
 
 $(document).ready(function () {

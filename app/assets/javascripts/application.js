@@ -14,7 +14,6 @@
 //= require jquery_ujs
 //= require_tree .
 //= require jquery/dist/jquery.min
-//= require paloma
 //= require bootstrap/dist/js/bootstrap.min
 //= require flot/jquery.flot
 //= require flot/jquery.flot.resize
