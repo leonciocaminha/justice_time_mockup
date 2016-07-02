@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require_tree .
 //= require jquery/dist/jquery.min
+//= require paloma
 //= require bootstrap/dist/js/bootstrap.min
 //= require flot/jquery.flot
 //= require flot/jquery.flot.resize
@@ -24,5 +25,6 @@
 //= require flot-orderBars/js/jquery.flot.orderBars
 //= require malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min
 //= require jquery.animateNumber/jquery.animateNumber.min
+//= require highcharts/highcharts
 //= require functions
 //= require charts

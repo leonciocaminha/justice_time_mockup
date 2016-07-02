@@ -2,7 +2,7 @@
   height: 236px;
   b {
     position: relative;
-    top: 70px;
+    top: 50px;
   }
 }
 
@@ -70,15 +70,16 @@
 .court-qty {
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: -10px;
 }
 
 .description-court {
   > div {
     color: #2196F3;
   }
-  position: relative;
-  right: 40px;
-  top: -8px;
+  // position: relative;
+  // right: 40px;
+  // top: -8px;
 }
 
 .numberCircle {
@@ -96,27 +97,34 @@
 
 .counters-bpmn {
   position: absolute;
-  .counters-bpmn-2 {
-    left: 1150px;
-  }
-  top: 76px;
+  // .counters-bpmn-2 {
+  //   left: 1150px;
+  // }
+  top: 47px;
 }
 
 .counters-bpmn-1 {
-  left: 550px;
+  left: 33%;
 }
 
 .counters-bpmn-2 {
-  position: absolute;
-  left: 820px;
+  left: 55%;
 }
 
 .counters-bpmn-3 {
-  left: 1150px;
+  left: 83%;
 }
 
 .link-bpmn {
   width: 100px;
   height: 100px;
   background-color: red;
+}
+
+.image-bpm {
+  margin-top: -30px;
+}
+
+.charts {
+  height: 330px;
 }

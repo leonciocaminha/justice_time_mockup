@@ -16,6 +16,6 @@
     "moment": "latest",
     "flot-charts": "git://github.com/JaySunSyn/flot-charts",
     "jquery.animateNumber": "latest",
-    "EasyZoom": "git://github.com/i-like-robots/EasyZoom"
+    "highcharts": "latest"
   }
 }

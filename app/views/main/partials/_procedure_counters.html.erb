@@ -7,7 +7,7 @@
             <h1>
               <span class="value-card dark-font">
                 <%= fa_icon("file") %>
-                232 (64%)
+                <%= rand_number %> <%= rand_ptg %>
               </span>
             </h1>
             <b class="label-card dark-font">Processos de Homicídios Monitorados</b>
@@ -17,54 +17,31 @@
         <div class="col-md-9">
           <div class="row">
             <div class="col-sm-6">
-              <div class="cb-item cardboard animated zoomIn">
-                <%= file_time_icon %>
-                <h1 class="qty dark-font">63 (54%)</h1>
-                <b class="dark-font">Processos menor ou igual a 05 meses</b>
-              </div>
+              <%= render partial: "main/partials/cardboard", locals: { label: 'Processos menor ou igual a 05 meses' } %>
             </div>
 
             <div class="col-sm-6">
-              <div class="cb-item cardboard animated zoomIn">
-                <%= file_time_icon %>
-                <h1 class="qty dark-font">63 (54%)</h1>
-                <b class="dark-font">Processos maior que 05 meses e menor ou igual a 10 meses</b>
-              </div>
+              <%= render partial: "main/partials/cardboard", locals: { label: 'Processos maior que 05 meses e menor ou igual a 10 meses' } %>
             </div>
           </div>
 
           <div class="row">
             <div class="col-sm-4">
-              <div class="cb-item bg-green rounded-border animated zoomIn">
-                <%= fa_icon('clock-o', class:"clock-icon-jt") %>
-                <h1 class="qty">63 (54%)</h1>
-                <div class="">
-                  <b class="light-font">Processos no Tempo de Justiça</b>
-                </div>
-                <small class="light-font">Em até 75% do Tempo de Justiça</small>
-              </div>
+              <%= render partial: "main/partials/colored_cardboard", locals: { color: "green",
+                                                                               label_01: "Processos no Tempo de Justiça",
+                                                                               label_02: "Em até 75% do Tempo de Justiça" } %>
             </div>
 
             <div class="col-sm-4">
-              <div class="cb-item bg-orange rounded-border animated zoomIn">
-                <%= fa_icon('clock-o', class:"clock-icon-jt") %>
-                <h1 class="qty">63 (54%)</h1>
-                <div class="">
-                  <b class="light-font">Processos a vencer o Tempo de Justiça</b>
-                </div>
-                <small class="light-font">A partir de 76% até 100% do Tempo de Justiça</small>
-              </div>
+              <%= render partial: "main/partials/colored_cardboard", locals: { color: "orange",
+                                                                               label_01: "Processos a vencer o Tempo de Justiça",
+                                                                               label_02: "Processos a vencer o Tempo de Justiça" } %>
             </div>
 
             <div class="col-sm-4">
-              <div class="cb-item bg-red rounded-border animated zoomIn">
-                <%= fa_icon('clock-o', class:"clock-icon-jt") %>
-                <h1 class="qty">63 (54%)</h1>
-                <div class="">
-                  <b class="light-font">Processos que excederam o Tempo de Justiça</b>
-                </div>
-                <small class="light-font">Acima de 100% do Tempo de Justiça</small>
-              </div>
+              <%= render partial: "main/partials/colored_cardboard", locals: { color: "red",
+                                                                               label_01: "Processos que excederam o Tempo de Justiça",
+                                                                               label_02: "Acima de 100% do Tempo de Justiça" } %>
             </div>
           </div>
         </div>

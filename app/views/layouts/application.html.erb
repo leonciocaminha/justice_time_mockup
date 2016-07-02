@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title><%= t("appname") %></title>
-  <%= stylesheet_link_tag 'application', media: 'all' %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <%= render partial: "layouts/header" %>
-  <%= yield %>
-
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-</body>
+  <head>
+    <title><%= t("appname") %></title>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+    <%= render partial: "layouts/header" %>
+    <%= yield %>
+  </body>
+    <%= javascript_include_tag 'application' %>
 </html>
