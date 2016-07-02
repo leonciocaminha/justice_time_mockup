@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   root 'main#index'
   get "main/phase_3"
   get "main/index"
+  get "main/list"
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

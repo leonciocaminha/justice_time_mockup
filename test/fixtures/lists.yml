@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  number: MyString
+  court: MyString
+  macro: MyString
+  string: MyString
+  macro_period: 2016-07-02
+  phase: MyString
+  phase_period: 2016-07-02
+  monitored: MyString
+  boolean: MyString
+
+two:
+  number: MyString
+  court: MyString
+  macro: MyString
+  string: MyString
+  macro_period: 2016-07-02
+  phase: MyString
+  phase_period: 2016-07-02
+  monitored: MyString
+  boolean: MyString

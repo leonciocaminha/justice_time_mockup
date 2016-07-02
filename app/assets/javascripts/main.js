@@ -91,6 +91,15 @@ var charts = {
 }
 
 $(document).ready(function () {
-  charts.procedurePerDays('#procedure-per-days')
-  charts.procedurePerPhase('#procedure-per-phase')
+  charts.procedurePerDays('#procedure-per-days');
+  charts.procedurePerPhase('#procedure-per-phase');
+  $("#zoom-image").elevateZoom({
+    tint:true,
+    tintColour:'#ccc',
+    tintOpacity:0.5,
+    zoomWindowPosition: 6,
+    scrollZoom : true,
+    zoomWindowWidth:1200,
+    zoomWindowHeight:400
+  });
 })

@@ -13,4 +13,8 @@ module MainHelper
   def rand_ptg
     " (#{rand(100)}%)"
   end
+
+  def rand_indicator
+    fa_icon("circle", class: ["ok-status", "warn-status", "danger-status"].sample )
+  end
 end

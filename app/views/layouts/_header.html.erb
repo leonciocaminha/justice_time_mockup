@@ -2,15 +2,16 @@
   <ul class="header-inner">
       <!-- Logo -->
       <li class="logo">
-        <a href="#" class="animated fadeInLeft">
+        <%= link_to root_path, class: "animated fadeInLeft" do %>
           <%= fa_icon "gavel" %>
           <%= t("appname") %>
-        </a>
+        <% end %>
       </li>
+
 
       <!-- Ongoing Projects -->
       <li class="dropdown">
-        <a data-toggle="dropdown" href="" class="hi-projects">
+        <a href="/main/list" class="hi-projects" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Listagem de Processos">
           <i class="zmdi zmdi-format-subject"></i>
         </a>
       </li>

@@ -25,5 +25,6 @@
 //= require malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min
 //= require jquery.animateNumber/jquery.animateNumber.min
 //= require highcharts/highcharts
+//= require elevatezoom/jquery.elevateZoom-2.2.3.min
 //= require functions
 //= require charts
