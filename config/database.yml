@@ -10,7 +10,9 @@ default: &default
   timeout: 5000
 
 development:
-  <<: *default
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
   database: db/development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
@@ -21,5 +23,8 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default
-  database: db/production.sqlite3
+    adapter: postgresql
+    host: ec2-23-23-81-189.compute-1.amazonaws.com
+    database: d3sqk4lf6rs4bn
+    username: twtwlymjlhlaqt
+    password: 0B5IdRLs93XKsylZ4Ai1_oCKw9
