@@ -17,4 +17,14 @@ module MainHelper
   def rand_indicator
     fa_icon("circle", class: ["ok-status", "warn-status", "danger-status"].sample )
   end
+
+  def diff_days(date)
+    diff = (Date.today - date).to_i
+    diff_days = diff > 1 ? t("days", day: diff) : t("day", day: diff)
+    content_tag(:span) do
+      concat(diff_days)
+      concat(tag(:br))
+      concat("(#{l(date)})")
+    end
+  end
 end

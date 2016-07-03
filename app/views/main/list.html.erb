@@ -32,13 +32,13 @@
                   <%= procedure.macro %>
                 </td>
                 <td>
-                  <%= l(procedure.macro_period) %>
+                  <%= diff_days(procedure.macro_period) %>
                 </td>
                 <td>
                   <%= procedure.phase %>
                 </td>
                 <td>
-                  <%= l(procedure.phase_period) %>
+                  <%= diff_days(procedure.phase_period) %>
                 </td>
                 <td class="text-center">
                   <%= rand_indicator %>
