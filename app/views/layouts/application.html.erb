@@ -3,10 +3,11 @@
   <head>
     <title><%= t("appname") %></title>
     <%= stylesheet_link_tag 'application', media: 'all' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <%= render partial: "layouts/header" %>
+    <%= render partial: "layouts/header" unless controller.action_name == 'sign_in' %>
     <%= yield %>
   </body>
     <%= javascript_include_tag 'application' %>

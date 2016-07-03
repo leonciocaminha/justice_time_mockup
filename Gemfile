@@ -29,6 +29,8 @@ gem "font-awesome-rails"
 
 gem "kaminari"
 
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -38,9 +40,9 @@ gem "kaminari"
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem 'bower-rails'
+gem 'sqlite3'
 
 group :development, :test do
-  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'thin'
@@ -48,6 +50,8 @@ group :development, :test do
 end
 
 group :development do
+  gem "mina-multistage", "~> 1.0", require: false
+  gem "mina"
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 

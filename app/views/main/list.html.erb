@@ -73,7 +73,7 @@
                         </a>
                       </li>
                       <li>
-                        <a class="detail-actions" data-link="/action_plans/27" href="#">
+                        <a class="detail-actions" data-toggle="modal" href="#modalWider">
                           <%= fa_icon("map") %>
                           Mapa do Processo
                         </a>
@@ -94,3 +94,5 @@
     </div>
   </div>
 </section>
+
+<%= render partial: "main/partials/modal_procedure" %>
